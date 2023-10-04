@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    width: 1300px;
+    margin: auto;
+    height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.main{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color: black;
+}
+.navbar{
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo img{
+     width: 65px;
+     height: 60px;
+     font-size: 25px;
+     cursor: pointer;
+     border-radius: 500px;
+     margin-left: 15px;
+}
+
+.content ul{
+    display: flex;
+    gap: 20px;
+    padding: 0 35px;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content a li{
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+.A{
+    margin-top: 20px;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    background-color: #272727;
+
+}
+
+.textone{
+    flex: 1;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+}
+
+.a p{
+   font-size: 25px;
+}
+.b h1{
+   font-size: 60px;
+   background: -webkit-linear-gradient(#911515, #c8b314);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.c button{
+   width: 110px;
+   height: 43px;
+   border: none;
+   font-size: 15px;
+   color: white;
+   background: rgb(255,226,0);
+   background: linear-gradient(90deg, rgb(188, 103, 5) 0%, rgb(195, 32, 56) 100%);
+   cursor: pointer;
+   border-radius: 3px;
+}
+
+.picone{
+    flex: 1;
+    background: url(iron-man-png\(4\).png);
+    background-size: cover;
+}
+
+.B{
+    margin-top: 20px;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    background-color: #272727;
+}
+
+.texttwo{
+    flex: 1;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+}
+
+.d h2{
+    font-size: 30px;
+    background: -webkit-linear-gradient(#ab1e1e, #908218);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .e h1{
+    font-size: 50px;
+ }
+
+ .f p{
+    font-size: 15px;
+ }
+
+ .pictwo{
+    flex: 1;
+    background: url(iron\ mannn.png);
+    background-size: cover;
+ }
+
+ .title{
+    margin-top: 20px;
+    background-color: #272727;
+    width: 100%;
+    height: 70px;
+
+ }
+
+ .title h2{
+   text-align: center;
+   padding-top: 20px;
+   color:rgb(254 140 5);
+ }
+
+ .C{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #272727;
+ }
+
+ .textthree{
+    flex: 1;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    padding:30px 50px;
+}
+
+.g h3{
+    font-size: 23px;
+    font-weight: 100;
+    background: -webkit-linear-gradient(orange, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .h h1{
+      font-size: 45px;
+ }
+
+ .textfour{
+    flex: 1;
+    gap: 20px;
+    display: flex;
+    padding:30px 50px;
+}
+
+.border{
+    border-left: 3px solid white;
+    padding-left: 20px; 
+}
+
+.na{
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #272727;
+    padding-top: 20px;
+}
+
+.na h2{
+    text-align: center;
+    color:rgb(254 140 5);
+}
+
+.ags{
+    height: 60px;
+    width:1005;
+    background-color: #272727;
+    padding-top: 15px;
+}
+
+.ags ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+}
+
+.ags a{
+      color: white;
+      text-decoration: none;
+}
+.ags a:hover{
+    color:rgb(254 140 5);
+    transition: 0.5s;
+}
+
+.D{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+}
+
+.row1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.image1{
+    flex:1;
+    background: url(i1.png);
+    background-position: 50% 50%;
+    background-size:cover;
+}
+.image2{
+    flex:1;
+    background: url(i2.png);
+    background-position: 35% 65%;
+    background-repeat: no-repeat;
+}
+.image3{
+    flex:1;
+    background: url(i3.png);
+    background-position: 40% 60%;
+    background-repeat: no-repeat;
+}
+
+
+.row2{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.video1{
+    flex:1;
+}
+.video1 video{
+    width: 250px;
+    height:400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.video2{
+    flex:1;
+}
+
+.video2 video{
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.video3{
+    flex:1;
+}
+
+.video3 video{
+    width: 250px;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.E{
+    margin-top: 20px;
+    height: 400px; 
+    display: flex;
+    background-color: #272727;
+}
+
+.row3{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    padding-left: 35px;
+    gap: 30px;
+    padding-top: 50px;
+
+}
+
+.he h2{
+    color:rgb(254 140 5);
+}
+
+.hee h1{
+   font-size: 45px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons a{
+    color: white;
+}
+
+.row4{
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.textarea textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    font-size: 15px;
+}
+
+.bt button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: rgb(255,226,0);
+    background: linear-gradient(90deg, rgb(188, 103, 5) 0%, rgb(195, 32, 56) 100%);
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #272727;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
